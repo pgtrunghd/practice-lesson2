@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.log text eol=lf
+*.md text eol=lf
+*.jpg binary
+*.zip binary

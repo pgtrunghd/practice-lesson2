@@ -1,0 +1,170 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+{"@timestamp":"2026-11-25T06:56:28.576Z","log.level": "INFO","message":"HV000001: Hibernate Validator 9.1.0.Final","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"background-preinit","log.logger":"org.hibernate.validator.internal.util.Version"}
+{"@timestamp":"2026-11-25T06:56:28.617Z","log.level": "INFO","message":"Starting UserServiceApplication v0.0.1-SNAPSHOT using Java 17.0.21.1 with PID 7431 (/root/workspace/quickbite-user/build/libs/user-service.jar started by root in /root/workspace/quickbite-user)","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.quickbite.user_service.UserServiceApplication"}
+{"@timestamp":"2026-11-25T06:56:28.619Z","log.level": "INFO","message":"No active profile set, falling back to 1 default profile: \"default\"","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.quickbite.user_service.UserServiceApplication"}
+{"@timestamp":"2026-11-25T06:56:29.331Z","log.level": "INFO","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode.","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate"}
+{"@timestamp":"2026-11-25T06:56:29.376Z","log.level": "INFO","message":"Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate"}
+{"@timestamp":"2026-11-25T06:56:29.881Z","log.level": "INFO","message":"Tomcat initialized with port 8081 (http)","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.boot.tomcat.TomcatWebServer"}
+{"@timestamp":"2026-11-25T06:56:29.892Z","log.level": "INFO","message":"Initializing ProtocolHandler [\"http-nio-8081\"]","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"@timestamp":"2026-11-25T06:56:29.894Z","log.level": "INFO","message":"Starting service [Tomcat]","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.apache.catalina.core.StandardService"}
+{"@timestamp":"2026-11-25T06:56:29.894Z","log.level": "INFO","message":"Starting Servlet engine: [Apache Tomcat/11.0.22]","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.apache.catalina.core.StandardEngine"}
+{"@timestamp":"2026-11-25T06:56:29.926Z","log.level": "INFO","message":"Root WebApplicationContext: initialization completed in 1269 ms","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer"}
+{"@timestamp":"2026-11-25T06:56:30.143Z","log.level": "INFO","message":"HHH008540: Processing PersistenceUnitInfo [name: default]","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.jpa"}
+{"@timestamp":"2026-11-25T06:56:30.196Z","log.level": "INFO","message":"HHH000001: Hibernate ORM core version 7.4.1.Final","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.core"}
+{"@timestamp":"2026-11-25T06:56:30.477Z","log.level": "INFO","message":"No LoadTimeWeaver setup: ignoring JPA class transformer","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo"}
+{"@timestamp":"2026-11-25T06:56:30.494Z","log.level": "INFO","message":"HikariPool-1 - Starting...","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.zaxxer.hikari.HikariDataSource"}
+{"@timestamp":"2026-11-25T06:56:30.595Z","log.level": "INFO","message":"HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c3d4bd7","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.zaxxer.hikari.pool.HikariPool"}
+{"@timestamp":"2026-11-25T06:56:30.596Z","log.level": "INFO","message":"HikariPool-1 - Start completed.","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.zaxxer.hikari.HikariDataSource"}
+{"@timestamp":"2026-11-25T06:56:30.615Z","log.level": "WARN","message":"HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.deprecation"}
+{"@timestamp":"2026-11-25T06:56:30.630Z","log.level": "INFO","message":"HHH10001005: Database info:\n\tDatabase JDBC URL [jdbc:postgresql://localhost:5432/postgres]\n\tDatabase driver: PostgreSQL JDBC Driver\n\tDatabase dialect: PostgreSQLDialect\n\tDatabase version: 15.20\n\tDefault catalog/schema: postgres/public\n\tAutocommit mode: undefined/unknown\n\tIsolation level: READ_COMMITTED [default READ_COMMITTED]\n\tJDBC fetch size: none\n\tPool: DataSourceConnectionProvider\n\tMinimum pool size: undefined/unknown\n\tMaximum pool size: undefined/unknown","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.connections.pooling"}
+{"@timestamp":"2026-11-25T06:56:31.213Z","log.level": "INFO","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.core"}
+Hibernate: 
+    create table refresh_tokens (
+        id bigint generated by default as identity,
+        expires_at timestamp(6),
+        is_revoked boolean,
+        refresh_token varchar(255),
+        user_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table user_addresses (
+        id bigint generated by default as identity,
+        detail_address varchar(255),
+        is_default boolean,
+        label varchar(255),
+        user_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table user_wallets (
+        id bigint generated by default as identity,
+        balance numeric(38,2),
+        user_id bigint,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        id bigint generated by default as identity,
+        full_name varchar(255),
+        hashed_password varchar(255),
+        role varchar(255) check ((role in ('CUSTOMER','DRIVER','MERCHANT'))),
+        username varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table wallet_transactions (
+        id varchar(255) not null,
+        amount numeric(38,2) not null,
+        created_at timestamp(6) not null,
+        type varchar(255) not null,
+        user_id bigint not null,
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists user_wallets 
+       drop constraint if exists UKblgu1m2imxhvys2sy1a0d7ut7
+{"@timestamp":"2026-11-25T06:56:31.275Z","log.level": "WARN","message":"HHH000247: ErrorCode: 0, SQLState: 00000","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.jdbc.warn"}
+{"@timestamp":"2026-11-25T06:56:31.275Z","log.level": "WARN","message":"constraint \"ukblgu1m2imxhvys2sy1a0d7ut7\" of relation \"user_wallets\" does not exist, skipping","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.jdbc.warn"}
+Hibernate: 
+    alter table if exists user_wallets 
+       add constraint UKblgu1m2imxhvys2sy1a0d7ut7 unique (user_id)
+Hibernate: 
+    alter table if exists users 
+       drop constraint if exists UKr43af9ap4edm43mmtq01oddj6
+{"@timestamp":"2026-11-25T06:56:31.280Z","log.level": "WARN","message":"HHH000247: ErrorCode: 0, SQLState: 00000","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.jdbc.warn"}
+{"@timestamp":"2026-11-25T06:56:31.280Z","log.level": "WARN","message":"constraint \"ukr43af9ap4edm43mmtq01oddj6\" of relation \"users\" does not exist, skipping","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.hibernate.orm.jdbc.warn"}
+Hibernate: 
+    alter table if exists users 
+       add constraint UKr43af9ap4edm43mmtq01oddj6 unique (username)
+Hibernate: 
+    alter table if exists refresh_tokens 
+       add constraint FK1lih5y2npsf8u5o3vhdb9y0os 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    alter table if exists user_addresses 
+       add constraint FKn2fisxyyu3l9wlch3ve2nocgp 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    alter table if exists user_wallets 
+       add constraint FK423n8ap6gdudl8fcab7ugv3qt 
+       foreign key (user_id) 
+       references users
+{"@timestamp":"2026-11-25T06:56:31.291Z","log.level": "INFO","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"}
+{"@timestamp":"2026-11-25T06:56:31.328Z","log.level": "INFO","message":"Hibernate is in classpath; If applicable, HQL parser will be used.","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.data.jpa.repository.query.QueryEnhancerFactories"}
+{"@timestamp":"2026-11-25T06:56:31.635Z","log.level": "WARN","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration"}
+{"@timestamp":"2026-11-25T06:56:31.711Z","log.level": "INFO","message":"Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"}
+{"@timestamp":"2026-11-25T06:56:32.241Z","log.level": "INFO","message":"Exposing 3 endpoints beneath base path '/actuator'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"}
+{"@timestamp":"2026-11-25T06:56:32.277Z","log.level": "INFO","message":"Starting ProtocolHandler [\"http-nio-8081\"]","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"@timestamp":"2026-11-25T06:56:32.285Z","log.level": "INFO","message":"Tomcat started on port 8081 (http) with context path '/'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springframework.boot.tomcat.TomcatWebServer"}
+{"@timestamp":"2026-11-25T06:56:32.292Z","log.level": "INFO","message":"Started UserServiceApplication in 4.095 seconds (process running for 4.435)","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"com.quickbite.user_service.UserServiceApplication"}
+Hibernate: 
+    select
+        count(*) 
+    from
+        users u1_0
+Hibernate: 
+    insert 
+    into
+        users
+        (full_name, hashed_password, role, username) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user_addresses
+        (detail_address, is_default, label, user_id) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user_wallets
+        (balance, user_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        users
+        (full_name, hashed_password, role, username) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user_wallets
+        (balance, user_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        users
+        (full_name, hashed_password, role, username) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user_wallets
+        (balance, user_id) 
+    values
+        (?, ?)
+{"@timestamp":"2026-11-25T06:56:32.594Z","log.level": "WARN","message":"SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springdoc.core.events.SpringDocAppInitializer"}
+{"@timestamp":"2026-11-25T06:56:32.594Z","log.level": "WARN","message":"SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"main","log.logger":"org.springdoc.core.events.SpringDocAppInitializer"}
+{"@timestamp":"2026-11-25T06:56:38.138Z","log.level": "INFO","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"http-nio-8081-exec-1","log.logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"}
+{"@timestamp":"2026-11-25T06:56:38.138Z","log.level": "INFO","message":"Initializing Servlet 'dispatcherServlet'","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"http-nio-8081-exec-1","log.logger":"org.springframework.web.servlet.DispatcherServlet"}
+{"@timestamp":"2026-11-25T06:56:38.140Z","log.level": "INFO","message":"Completed initialization in 1 ms","ecs.version": "1.2.0","service.name":"user-service","event.dataset":"user-service","process.thread.name":"http-nio-8081-exec-1","log.logger":"org.springframework.web.servlet.DispatcherServlet"}
